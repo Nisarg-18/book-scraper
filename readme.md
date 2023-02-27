@@ -8,11 +8,11 @@ Made using node js and puppeteer
 
 # Input
 
-![output 1](input.PNG)
+![input](input.PNG)
 
 # Output
 
-![output 2](output.PNG)
+![output](output.PNG)
 
 
 <hr>
