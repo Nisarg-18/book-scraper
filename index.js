@@ -10,9 +10,7 @@ const books = xlsx.utils.sheet_to_json(workbook.Sheets[worksheet]);
 
 async function scrap_books(book) {
   // Launch a headless Chrome browser
-  const browser = await puppeteer.launch({
-    headless: false,
-  });
+  const browser = await puppeteer.launch();
   try {
     // Create a new page
     const page = await browser.newPage();
