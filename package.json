@@ -1,0 +1,17 @@
+{
+  "name": "book_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.7.2",
+    "string-similarity": "^4.0.4",
+    "xlsx": "^0.18.5"
+  }
+}
